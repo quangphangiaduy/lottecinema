@@ -1,0 +1,71 @@
+.gift {
+    border-top: 1px solid #e3e1d6;
+    background-image: url(img/bg_pattern.png);
+    background-repeat: repeat;
+}
+
+.gift .gift_category {
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+}
+
+.gift .gift_category .gift_category_links {
+    text-decoration: none;
+    font-size: 15px;
+    color: #231f20;
+}
+
+.gift .card {
+    border-radius: 0px !important;
+    font-size: 14px !important;
+}
+
+.gift .card .card-body {
+    padding: 0.5rem 0px 0px 0px;
+}
+
+.gift .card .card-body a.gift-title {
+    color: #231f20;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.gift .card .card-body a.gift-title:hover {
+    text-decoration: none;
+}
+
+.gift .card .card-body .gift_date {
+    font-size: 13px;
+    padding: 0.5rem;
+    margin-bottom: 0px;
+}
+
+.gift .card .card-body .gift_price {
+    margin-bottom: 0px;
+    border-top: 1px solid #dedede;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.gift .card .card-body .gift_price .cost {
+    padding: 0.4rem;
+    font-size: 12px;
+    text-decoration: line-through;
+    float: left;
+    color: red;
+}
+
+.gift .card .card-body .gift_price .discount {
+    padding: 0.4rem;
+    float: right;
+}
