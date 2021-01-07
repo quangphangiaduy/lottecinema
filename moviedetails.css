@@ -1,0 +1,239 @@
+.movie_detail {
+    font-size: 14px;
+    background-image: url(img/bg_pattern.png);
+    background-repeat: repeat;
+}
+
+.movie_detail .all_movie {
+    background-color: #dad2b4;
+}
+
+.movie_detail .all_movie_links {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+.movie_detail .all_movie_links:hover {
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.movie_detail .carousel {
+    position: relative;
+}
+
+.movie_detail .carousel-item img {
+    object-fit: cover;
+}
+
+.movie_detail #carousel-thumbs {
+    background: rgba(255, 255, 255, .3);
+    bottom: 0;
+    left: 0;
+    padding: 0 50px;
+    right: 0;
+}
+
+.movie_detail #carousel-thumbs img {
+    border: 5px solid transparent;
+    cursor: pointer;
+}
+
+.movie_detail #carousel-thumbs img:hover {
+    border-color: rgba(255, 255, 255, .3);
+}
+
+.movie_detail #carousel-thumbs .selected img {
+    border-color: #fff;
+}
+
+.movie_detail .carousel-control-prev {
+    width: 50px;
+}
+
+.movie_detail .carousel-control-next {
+    width: 50px;
+}
+
+@media all and (max-width: 767px) {
+    .movie_detail .carousel-container #carousel-thumbs img {
+        border-width: 3px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    .movie_detail .carousel-container #carousel-thumbs {
+        position: absolute;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .movie_detail .carousel-container #carousel-thumbs {
+        background: #ccccce;
+    }
+}
+
+.movie_detail .button_border {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #cdc197;
+    text-align: center;
+    color: #cdc197;
+    background: #231f20;
+    font-weight: bold;
+    align-items: center;
+}
+
+.movie_detail .order_ticket {
+    color: #cdc197;
+    font-size: 15px;
+}
+
+.movie_detail .order_ticket:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.movie_detail .movie_information .movie_title {}
+
+.movie_detail .movie_information .See_rating,
+.rating,
+.release_date,
+.information,
+.information,
+.Category {
+    font-weight: bold;
+}
+
+.movie_detail .movie_information .See_rating_content,
+.rating_content,
+.release_date_content,
+.information_content,
+.Category_content {
+    font-weight: normal;
+    color: #666;
+}
+
+.movie_detail .movie_summary {
+    border-bottom: 1px solid #666;
+}
+
+.movie_detail .movie_summary .summary_content {
+    color: #666;
+    text-align: justify;
+}
+
+.movie_detail .border_comment {
+    border: 1px solid #666;
+    background-color: #fff;
+    border-right: none;
+}
+
+.movie_detail .border_textarea {
+    border: 1px solid #666;
+    background-color: #fff;
+    border-top: none;
+    border-bottom: none;
+}
+
+.movie_detail .comment .comment_star_icon {
+    color: black;
+}
+
+.movie_detail .comment .comment_submit {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #cdc197;
+}
+
+.movie_detail .comment .comment_submit:hover {
+    text-decoration: none;
+}
+
+.movie_detail .comment .comment_textarea {
+    outline: none;
+    border: none;
+}
+
+.movie_detail .comment .comment_textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.movie_detail .div_line {
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.movie_detail .user_commnet {
+    border-bottom: 1px solid #666;
+    background-color: #ffffff;
+}
+
+.movie_detail .user_commnet .content_user_commnet {}
+
+.movie_detail .user_commnet .date_user_commnet {
+    color: #666;
+    font-size: 12px;
+}
+
+.movie_detail .user_commnet .user_name {
+    font-size: 12px;
+    color: #ffffff;
+    background: #33373a;
+    padding: 2px;
+}
+
+.movie_detail .note {
+    background-color: #f5f5f5;
+}
+
+.movie_detail .note .note_title {
+    color: black;
+    font-weight: bold;
+}
+
+.movie_detail .note .note_content {
+    padding-left: 1em;
+    font-size: 12px;
+    color: #666;
+}
+
+@media (max-width: 575.98px) {
+    .movie_detail .border_textarea {
+        border-top: 1px solid #666;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .movie_detail .border_textarea {
+        border-top: 1px solid #666;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/*Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
