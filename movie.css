@@ -5,7 +5,7 @@
 }
 
 .movie_list .card_movie {
-    border: 3px double #dedede;
+    border: 1px solid #dedede;
     padding: 0px;
     /* margin: 15px; */
 }
