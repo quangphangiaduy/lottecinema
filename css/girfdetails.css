@@ -1,0 +1,160 @@
+.girfdetails {
+    background-color: #f9f6ec;
+    color: #231f20;
+}
+
+.bg_girfdetail {
+    background-color: white;
+    border-top: 2px solid black;
+}
+
+.border_right {
+    border-right: 2px solid #dedede;
+}
+
+.girfdetails .tbl_infor {
+    font-size: 14px;
+}
+
+.girfdetails .tbl_infor tbody th p {
+    border-right: 1px solid #dedede;
+    margin-bottom: 0px;
+    border-top: none;
+}
+
+.girfdetails .tbl_infor tbody th,
+.girfdetails .tbl_infor tbody td {
+    border-top: none;
+    padding-top: 0px;
+}
+
+.girfdetails .left_detail {
+    font-size: 14px !important;
+}
+
+.girfdetails .title_tbl_detail {
+    font-size: 14px;
+}
+
+.girfdetails .tbl_detail tbody tr:first-child th,
+.girfdetails .tbl_detail tbody tr:first-child td {
+    border-top: 2px solid black;
+}
+
+.girfdetails .tbl_detail tbody td {
+    padding: 15px 0 15px 0;
+    text-align: left;
+}
+
+.girfdetails .tbl_detail tbody td p {
+    margin-bottom: 0px;
+}
+
+.girfdetails .trafficMemo {
+    margin-bottom: 0px;
+}
+
+.girfdetails .tbl_detail tbody th,
+.girfdetails .tbl_detail tbody td {
+    border-bottom: 1px solid #dedede;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.girfdetails #useInfo th {
+    text-align: center;
+}
+
+.girfdetails .right_detail {
+    font-weight: bold;
+}
+
+.girfdetails .tbl_right tbody td {
+    width: 50%;
+    border: none;
+}
+
+.girfdetails .tbl_right tbody tr:first-child td {
+    border-top: 2px solid #dedede;
+}
+
+.girfdetails .tbl_right tbody tr:nth-child(2) td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.girfdetails .tbl_right tbody tr:nth-child(2) {
+    background-color: #efebdb;
+}
+
+.girfdetails .tbl_right tbody tr:nth-child(3) td {
+    font-size: 18px;
+}
+
+.girfdetails .tbl_right tbody tr:last-child td {
+    border: 1px solid #999999;
+}
+
+.girfdetails .tbl_right tbody tr:last-child td:last-child {
+    background-color: #231f20;
+    border: 2px solid #231f20;
+}
+
+.inline_div {
+    display: inline-block;
+}
+
+.girfdetails #txtItemCnt {
+    width: 50%;
+    outline: none;
+    border: none;
+    height: 30px;
+}
+
+.girfdetails .btn_girf {
+    width: 22%;
+}
+
+.girfdetails .btn_girf img {
+    width: 100%;
+}
+
+.girfdetails .wrapper_quantity {
+    border: 2px solid #999999;
+}
+
+.girfdetails .wbtn_righttbl {
+    text-align: center;
+    border: none;
+}
+
+.girfdetails .btn_righttbl {
+    font-weight: bold;
+}
+
+.girfdetails .btn_righttbl:hover {
+    text-decoration: none;
+}
+
+.girfdetails #btnPresent {
+    color: #231f20;
+}
+
+.girfdetails #btnBuy {
+    color: #cdc197
+}
+
+.girfdetails .btn_box {
+    padding: 5px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+
+.girfdetails .btnc_list {
+    color: #231f20;
+}
+
+.girfdetails .btnc_list:hover {
+    text-decoration: none;
+    color: #231f20;
+}

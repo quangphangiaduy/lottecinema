@@ -1,6 +1,6 @@
 .movie_list {
     border-top: 2px solid #e3e1d6;
-    background-image: url(img/bg_pattern.png);
+    background-image: url(../img/bg_pattern.png);
     background-repeat: repeat;
 }
 
@@ -91,9 +91,11 @@
     width: 100%;
     overflow: hidden;
     text-align: center;
-    height: 30px;
     text-transform: capitalize;
     margin-bottom: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 10px 5px;
 }
 
 .movie_list #movie_playing {

@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #f9f6ec;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.p-0 {
+    padding: 0
+}
+
+.menu-top {
+    background-color: #dad2b4
+}
+
+.scrollmenu {
+    overflow: auto !important;
+    white-space: nowrap !important;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.menu-top__links {
+    color: black;
+    text-transform: capitalize;
+    font-weight: 400
+}
+
+.banner-hero__image {
+    width: 100%;
+    object-fit: cover;
+    height: 26em
+}
+
+.info-cinema {
+    margin-top: 1%
+}
+
+.info-cinema__title {
+    display: flex
+}
+
+.info-cinema__my-cinema {
+    width: 20%;
+    display: flex;
+    margin-left: 10px;
+    background-color: #fff;
+    height: 30px;
+    font-size: 90%;
+    padding-left: 10px;
+    border: 1px solid
+}
+
+.info-cinema__text {
+    padding-top: 3px
+}
+
+.info-cinema__icon-heart {
+    width: 5%;
+    fill: red;
+    padding-top: 3px
+}
+
+.info-cinema__icon-plus {
+    margin-left: 10px;
+    width: 7%;
+    border-left: 1px solid;
+    padding-left: 5px;
+    padding-top: 3px
+}
+
+.info-cinema__price-tiket {
+    margin-left: 10px;
+    background-color: #fff;
+    height: 30px;
+    padding: 0 10px;
+    padding-top: 3px;
+    text-transform: capitalize;
+    border: 1px solid
+}
+
+.info-cinema__address {
+    color: #666;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.btn-fixed {
+    margin-top: 3%
+}
+
+.btn-fixed .active {
+    background-color: #cdc197;
+    border: none
+}
+
+.btn-fixed__items {
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    padding: 1% 0;
+    text-align: center;
+    font-weight: 600
+}
+
+.btn-fixed__items a {
+    color: black
+}
+
+.btn-fixed__items a:hover {
+    color: black;
+    text-decoration: none
+}
+
+.calendar {
+    margin-top: 5%;
+    position: relative
+}
+
+.calendar__pre {
+    position: absolute;
+    z-index: 11;
+    top: 10%
+}
+
+.calendar__next {
+    position: absolute;
+    z-index: 11;
+    right: 13%;
+    top: 10%
+}
+
+.calendar .calendar-slider {
+    margin: auto;
+    width: 90%
+}
+
+.calendar .calendar-slider p {
+    font-size: 90%
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.nav-item:hover .sub_nav_list {
+    display: block;
+}
+
+.sub_nav_list {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 12px;
+    overflow: auto !important;
+    white-space: nowrap !important;
+}
+
+.sub_nav_links {
+    display: inline-block;
+    color: #c5c5c5;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 0px;
+    margin: 0px 5px;
+}
+
+.sub_nav_links:hover {
+    color: #c5c5c5;
+    text-decoration: none;
+    border-bottom: 1px solid #dbdbda;
+    color: #fff;
+}
+
+.bg_list_screen {
+    background-color: white;
+}
+
+.cinema_grad {
+    margin-bottom: 0px;
+    overflow: auto !important;
+    white-space: nowrap !important;
+}
+
+.broder_cinema_grad {
+    border-bottom: 1px solid #666;
+}
+
+.cinema_grad li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.screen {
+    border: 1px solid #ebeaea;
+}
+
+.screen:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.screen:hover .time_start,
+.screen:hover .screen_infor_item:last-child,
+.screen:hover.screen_infor_item:nth-child(2) {
+    color: white;
+}
+
+.icon_movie_title {
+    padding: 1px;
+    border: 1px solid #ebeaea;
+}
+
+.movie_detail_link {
+    color: #231f20;
+}
+
+.movie_detail_link:hover {
+    text-decoration: none;
+    color: #231f20;
+}
+
+.movie_type {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 0px;
+}
+
+.screen_infor_item {
+    list-style: none;
+    color: #666666;
+    font-size: 13px;
+}
+
+.screen_infor_item:hover {
+    text-decoration: none;
+}
+
+.screen_infor_item:nth-child(2) {
+    border: 1px solid #ebeaea;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+}
+
+.screen_infor_item:last-child,
+.screen_infor_item:first-child {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.screen_infor {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.screen_links:hover {
+    text-decoration: none;
+}
+
+.time_start {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list_screen_note {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 0px;
+}
+
+.trafficATb {
+    border-top: 1px solid #999;
+}
+
+.trafficATb tbody tr:last-child {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.trafficATb th {
+    text-align: center;
+    width: 20%;
+    background-color: #f9f6ec;
+}
+
+.trafficMemo li {
+    list-style: none;
+    padding-left: 12px;
+    font-size: 14px;
+    color: #666;
+}

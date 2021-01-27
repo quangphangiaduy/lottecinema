@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/seat.css">
+    <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="seatheader bg_main pt-5 ">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-sm ">
+                        <h2 class="seatheader_title ">Chọn ghế</h2>
+                    </div>
+                    <div class="col-sm text-right">
+                        <ul class="seatheader_right">
+                            <li class="s_price">
+                                <a href="javascript:void(0);"><img src="img/icon_seat_d.png" alt="">Chọn loại vé</a>
+                            </li>
+                            <li class="reset">
+                                <a href="javascript:void(0);"><img src="img/icon_seat_re.gif" alt=""> Đặt lại</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select_box bg_main pb-3">
+            <div class="container bg_white ">
+                <div class="row">
+                    <div class="col-12 pt-2 pb-2 border_bottom">
+                        <label for="person">Người lớn</label>
+                        <select style="width: 70px;" name="person" id="person">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                        <label for="student">&#160;&#160;HOC SINH, SINH VIEN</label>
+                        <select style="width: 70px;" name="student" id="student">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
+                    <div class="col-12 pt-2 pb-2">
+                        <ul class="seat_seting">
+                            <li class="per1"><input type="radio" id="per1" name="seat_seting" value="per1">
+                                <label for="per1"><span class="seet_icon"><i class="far fa-square"></i></span></label><br>
+                            </li>
+                            <li class="per2"><input type="radio" id="per2" name="seat_seting" value="per2">
+                                <label for="per2"><span class="seet_icon"><i class="far fa-square"></i><span class="seet_icon"><i class="far fa-square"></i></label><br>
+                            </li>
+                            <li class="per3"><input type="radio" id="per3" name="seat_seting" value="per3">
+                                <label for="per3"><span class="seet_icon"><i class="far fa-square"></i><span class="seet_icon"><i class="far fa-square"></i><span class="seet_icon"><i class="far fa-square"></i></label><br>
+                            </li>
+                            <li class="per4"><input type="radio" id="per4" name="seat_seting" value="per4">
+                                <label for="per4"><span class="seet_icon"><i class="far fa-square"></i><span class="seet_icon"><i class="far fa-square"></i><span class="seet_icon"><i class="far fa-square"></i><span class="seet_icon"><i class="far fa-square"></i></label><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--list screen-->
+        <div class="screen bg_white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 p-0 mt-3 mb-3">
+                        <h3 class="screen_title">screen</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 pt-4 pb-4 text-center bg_main ">
+                        <table class="screen_tbl text-center " style="width: 50%;">
+                            <tr>
+                                <th><span class="seat_tit">A</span></th>
+                                <td><span class="seat_number"><a class="seat_number_links special_fee" href="javascript:void(0);">1</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">2</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">3</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">4</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">5</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">6</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">7</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">8</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">9</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_cannotchoose" href="javascript:void(0);">10</a></span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="seat_tit">B</span></th>
+                                <td><span class="seat_number"><a class="seat_number_links special_fee" href="javascript:void(0);">1</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">2</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">3</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">4</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">5</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">6</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">7</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">8</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">9</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_cannotchoose" href="javascript:void(0);">10</a></span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="seat_tit">C</span></th>
+                                <td><span class="seat_number"><a class="seat_number_links special_fee" href="javascript:void(0);">1</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">2</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">3</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">4</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">5</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">6</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">7</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">8</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">9</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_cannotchoose" href="javascript:void(0);">10</a></span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="seat_tit">D</span></th>
+                                <td><span class="seat_number"><a class="seat_number_links special_fee" href="javascript:void(0);">1</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">2</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">3</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">4</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">5</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">6</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">7</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">8</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">9</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_cannotchoose" href="javascript:void(0);">10</a></span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="seat_tit">E</span></th>
+                                <td><span class="seat_number"><a class="seat_number_links special_fee" href="javascript:void(0);">1</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">2</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">3</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">4</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">5</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">6</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">7</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">8</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">9</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_cannotchoose" href="javascript:void(0);">10</a></span></td>
+                            </tr>
+                            <tr>
+                                <th><span class="seat_tit">F</span></th>
+                                <td><span class="seat_number"><a class="seat_number_links special_fee" href="javascript:void(0);">1</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">2</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_canchoose" href="javascript:void(0);">3</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">4</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_couple" href="javascript:void(0);">5</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">6</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_vip" href="javascript:void(0);">7</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">8</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_selected" href="javascript:void(0);">9</a></span></td>
+                                <td><span class="seat_number"><a class="seat_number_links seat_cannotchoose" href="javascript:void(0);">10</a></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seat_ebox mt-3 mb-3">
+            <div class="container">
+                <div class="row">
+                    <ul class="seat_txt">
+                        <li>Nhấp lại vào chỗ ngồi đã chọn để hủy.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="seat_infor text-right">
+                        <li><img src="img/bg_door.png" alt="">&#160;Lối vào</li>
+                        <li><img src="img/bg_s_info01.gif" alt="">&#160;Ghế đã chọn</li>
+                        <li><img src="img/bg_s_info02.gif" alt="">&#160;Ghế có thể chọn</li>
+                        <li><img src="img/bg_s_info03.gif" alt="">&#160;Ghế đã mua</li>
+                        <li><img src="img/bg_s_info04.gif" alt="">&#160;Ghế không thể chọn</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="info_wrap">
+            <div class="container">
+                <div class="row">
+                    <ul class="infor_list text-center">
+                        <li><img src="img/bg_m01.gif" alt="">&#160;SWEET SPOT</li>
+                        <li><img src="img/bg_m03.gif" alt="">&#160;Ghế VIP</li>
+                        <li><img src="img/bg_m04.gif" alt="">&#160;Ghế couple</li>
+                        <li><img src="img/bg_m06.gif" alt="">&#160;Ghế cao cấp</li>
+                        <li><img src="img/bg_m07.gif" alt="">&#160;Ghế bị vô hiệu hóa</li>
+                        <li><img src="img/bg_m08.gif" alt="">&#160;Ghế cho khách hàng cần sự trợ giúp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--product list-->
+        <div class="product_list bg_main pt-3 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="product_list_tit">Đặt hàng sản phẩm</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--product item-->
+                    <div class="col-xl-3 col-md-3 col-sm-12 col-12 mt-2">
+                        <div class="card">
+                            <a href="#"><img src="img/combo1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a class="gift-title" href="#">COUPLE COMBO</a>
+                                <p class="gift_price"><span class="cost">Giá bán online</span><span class="discount"> ₫79.000₫</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--product item-->
+                    <div class="col-xl-3 col-md-3 col-sm-12 col-12 mt-2">
+                        <div class="card">
+                            <a href="#"><img src="img/combo1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a class="gift-title" href="#">COUPLE COMBO</a>
+                                <p class="gift_price"><span class="cost">Giá bán online</span><span class="discount"> ₫79.000₫</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--product item-->
+                    <div class="col-xl-3 col-md-3 col-sm-12 col-12 mt-2">
+                        <div class="card">
+                            <a href="#"><img src="img/combo1.jpg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <a class="gift-title" href="#">COUPLE COMBO</a>
+                                <p class="gift_price"><span class="cost">Giá bán online</span><span class="discount"> ₫79.000₫</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--product infor-->
+            <div class="container">
+                <div id="product_infor" class="product_infor bg_white mt-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="product_tit"> <span class="product_name">solo combo</span><button id="deleteSelectProduct" onclick="deleteSelectProduct()"><span class="icon_delete" >&times;</span></button></h4>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 250px;">
+                        <div class=" col-md-7 col-sm-12 col-12">
+                            <h5 class="pl-3 tit_txt">Để biết thêm thông tin, vui lòng truy cập Cửa hàng ngọt hoặc Cửa hàng quà tặng của chúng tôi.</h5>
+                            <table class="tbl_product_infor">
+                                <tbody>
+                                    <tr>
+                                        <th class="pl-3">Nội dung sản phẩm</th>
+                                        <td>1Qty/ 1Qty</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="pl-3">Số lượng mua tối thiếu</th>
+                                        <td>Không giới hạn</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="pl-3">Hạn sử dụng sản phẩm</th>
+                                        <td>★ 30 ngày sau khi mua</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class=" col-md-5 col-sm-12 col-12 border_left">
+                            <h5 class="tit_txt">Chọn tùy chọn</h5>
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <th><label for="profuct_size">Tùy chọn</label></th>
+                                        <td class="text-right pr-3"><select style="width: 70px;" name="profuct_size" id="profuct_size">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <h4 class="col-12" style="border: 1px solid black; margin: 0px; background-color: black;"></h4>
+                    <div class="row ">
+                        <div class="col-md-7 col-sm-12 col-12 ">
+                            <ul class="ft_product_infor_list pl-3 pt-2">
+                                <li><img src="img/bg_warning.png" alt="">&#160;Sau khi thêm các mục, bạn có thể thanh toán bằng vé nếu bạn chuyển sang bước tiếp theo.</li>
+                                <li><img src="img/bg_warning.png" alt="">&#160;Bạn không thể hủy sau khi mua chỗ ngồi.</li>
+                                <li><img src="img/bg_warning.png" alt="">&#160;Các mặt hàng trong cửa hàng không đủ điều kiện nhận L.POINT.</li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-12 border_left pb-2">
+                            <p class=" price_txt pt-2"><span>Tổng số</span><span class="price_infor pr-3">79.000<span>₫</span>
+                                </span>
+                            </p>
+                            <div class="text-center">
+                                <button class="add_cart_btn"><a  href="javascript:void(0);">Thêm vào giỏ hàng</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--total-->
+        <div class="total_wrap_btn pt-2 pb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="total_wrap_btn_left"><a href="javascript:void(0);"><span class="total_wrap_btn_icon"><i class="fas fa-long-arrow-alt-left" ></i>&#160;&#160;</span>Trở lại</a>
+                        </span>
+                        <span class="total_wrap_btn_right"><a href="javascript:void(0);">Bước tiếp theo<span class="total_wrap_btn_icon">&#160;&#160;<i class="fas fa-long-arrow-alt-right"></i></span></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="total_wrap bg_total_wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-sm-12 col-12 border_total_wrap p-0">
+                        <div class="box_content">
+                            <h6 class="total_wrap_tit">Phim chiếu rạp</h6>
+                            <div class="row">
+                                <div class="col-3">
+                                    <img width="65px" src="img/phim.jpg" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <p class="mv_tit ct_txt">
+                                        CHỊ MƯỜI BA: BA NGÀY SINH TỬ
+                                    </p>
+                                    <p class="mv_type ct_txt">
+                                        2D
+                                    </p>
+                                    <small class="old ct_txt">18 tuổi trở lên</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 border_total_wrap p-0">
+                        <div class="box_content">
+                            <h6 class="total_wrap_tit">Thông tin vé đã đặt</h6>
+                            <table class="total_wrap_tbl">
+                                <tbody>
+                                    <tr>
+                                        <th class="title_txt"><span class="date">Ngày</span></th>
+                                        <td class="ct_txt"><span class="date_txt">26/01/2021 (Ba)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_txt"><span class="time">Giờ chiếu</span></th>
+                                        <td class="ct_txt"><span class="time_txt">19:00 ~ 20:56</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_txt"><span class="cinema">Rạp chiếu</span></th>
+                                        <td class="ct_txt"><span class="area_txt">Huế</span>,<span class="screen_txt">Screen02</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="title_txt"><span class="seat">Ghế ngồi</span></th>
+                                        <td class="ct_txt"><span class="seat_txt"> C2</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a id="total_price_ticket" class="total_price" href="javascript:void(0);">100.000<span class="price_icon">₫</span></a>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12 col-12 border_total_wrap p-0">
+                        <div class="box_content">
+                            <h6 class="total_wrap_tit">Thông tin sản phẩm</h6>
+                            <div id="addProduct"><a class="pd_name" href="javascript:void(0);">COUPLE COMBO</a> <a class="pd_price" href="javascript:void(0);">105.000<span class="price_icon">₫&#160;</span><button class="detlete_btn" onclick="deleteAddProduct()">x</button>
+                                </a>
+                            </div>
+                        </div>
+                        <a id="total_price_product" class="total_price" href="javascript:void(0);">105.000<span class="price_icon">₫</span></a>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12 col-12 border_total_wrap p-0">
+                        <div class="box_content">
+                            <h6 class="total_wrap_tit">Tông tiền đơn hàng</h6>
+                            <div>
+                                <a class="title_txt" href="javascript:void(0);">Đặt trước phim</a>
+                                <a class="pd_price" href="javascript:void(0);">100.000<span class="price_icon">₫</span></a>
+                            </div>
+                            <div>
+                                <a class="title_txt" href="javascript:void(0);">Mua hàng</a>
+                                <a class="pd_price" href="javascript:void(0);">105.000<span class="price_icon">₫</span></a>
+                            </div>
+                        </div>
+                        <a id="total_price_order" class="total_price" href="javascript:void(0);">205.000<span class="price_icon">₫</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+
+</style>
+
+<script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var selectProduct = document.getElementById('product_infor');
+    var addProduct = document.getElementById('addProduct');
+
+    function deleteSelectProduct() {
+        selectProduct.remove();
+    }
+
+    function deleteAddProduct() {
+        addProduct.remove();
+    }
+</script>
+
+</html>

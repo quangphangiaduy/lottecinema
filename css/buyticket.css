@@ -1,0 +1,291 @@
+    * {
+        margin: 0;
+        padding: 0
+    }
+    
+    body {
+        background-color: #f9f6ec;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .p-0 {
+        padding: 0
+    }
+    
+    .calendar {
+        margin-top: 5%;
+        position: relative
+    }
+    
+    .calendar__pre {
+        position: absolute;
+        z-index: 11;
+        top: 10%
+    }
+    
+    .calendar__next {
+        position: absolute;
+        z-index: 11;
+        right: 13%;
+        top: 10%
+    }
+    
+    .calendar .calendar-slider {
+        margin: auto;
+        width: 90%
+    }
+    
+    .calendar .calendar-slider p {
+        font-size: 90%
+    }
+    
+    .bg_ticket_inner {
+        background-color: white;
+        border-top: 2px solid #23333b;
+    }
+    
+    .bg_white {
+        background-color: white;
+    }
+    
+    h4 {
+        padding: 15px;
+        text-transform: capitalize;
+    }
+    
+    .list_cinema {
+        font-size: 14px;
+    }
+    
+    .cinema_item {
+        text-align: center;
+    }
+    
+    .border_title {
+        border-top: 1px solid #dedede;
+        border-bottom: 1px solid #dedede;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .list-group-item {
+        border: none;
+        text-align: center;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .list-group-item.active {
+        z-index: 2;
+        color: #fff;
+        background-color: #231f20;
+        border-color: #231f20;
+        border-radius: 0%;
+    }
+    
+    .list_area_cinema_item {
+        width: 30%;
+        overflow: hidden;
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .list_area_cinema_links:hover {
+        text-decoration: none;
+    }
+    
+    .list_area_cinema_links p {
+        padding: 8px 0px;
+        margin: 0px;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        text-transform: capitalize;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        background-color: #fafafa;
+        color: #d1d1d1;
+    }
+    
+    .list_area_cinema_links:focus p {
+        border: 1px solid #999999;
+    }
+    
+    .list_movie_item {
+        width: 100%;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding: 0px 5px;
+        list-style: none;
+    }
+    
+    .border_left {
+        border-left: 1px solid #dedede;
+    }
+    
+    .list_movie {
+        height: auto;
+        overflow-y: auto;
+    }
+    
+    .list_movie_links:hover {
+        text-decoration: none;
+    }
+    
+    .list_movie_links:focus p {
+        border: 1px solid black;
+    }
+    
+    .list_movie_links p {
+        padding: 8px 0px;
+        margin: 0px;
+        width: 100%;
+        overflow: hidden;
+        text-align: left;
+        text-transform: capitalize;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #231f20;
+        font-size: 14px;
+    }
+    
+    .selectMv_Area_bg {
+        background-color: #dad2b4;
+    }
+    
+    .selectMv_Area_title {
+        margin: 0px;
+    }
+    
+    #selectMv_Area_item,
+    #selectMv_item {
+        margin: 0px;
+        padding: 5px;
+        border: 1px solid #bab093;
+        background-color: #e5e0cb;
+    }
+    
+    #deleteSelectArea,
+    #deleteSelectMv {
+        outline: none;
+        border: none;
+        float: right;
+        background-color: #877b61;
+        padding: 0px 5px;
+    }
+    
+    .mv_title {
+        font-weight: bold;
+    }
+    
+    .icon_delete {
+        color: white;
+    }
+    
+    .time_inner_note {
+        font-size: 14px;
+    }
+    
+    .time_inner_title {
+        padding-top: 30px;
+    }
+    
+    .bg_list_screen {
+        background-color: white;
+    }
+    
+    .area_cinema {
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 15px 0px
+    }
+    
+    .screen {
+        border: 1px solid #ebeaea;
+    }
+    
+    .screen:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .screen:hover .time_start,
+    .screen:hover .screen_infor_item:last-child,
+    .screen:hover.screen_infor_item:nth-child(2) {
+        color: white;
+    }
+    
+    .movie_title {
+        background-color: #efebdb;
+        padding: 16px;
+    }
+    
+    .icon_movie_title {
+        padding: 1px;
+        border: 1px solid #ebeaea;
+    }
+    
+    .movie_detail_link {
+        color: #231f20;
+    }
+    
+    .movie_detail_link:hover {
+        text-decoration: none;
+        color: #231f20;
+    }
+    
+    .movie_type {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 0px;
+    }
+    
+    .screen_infor_item {
+        list-style: none;
+        color: #666666;
+        font-size: 13px;
+    }
+    
+    .screen_infor_item:hover {
+        text-decoration: none;
+    }
+    
+    .screen_infor_item:nth-child(2) {
+        border: 1px solid #ebeaea;
+        border-left: none;
+        border-right: none;
+        padding: 5px;
+    }
+    
+    .screen_infor_item:last-child,
+    .screen_infor_item:first-child {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    .screen_infor {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    .screen_links:hover {
+        text-decoration: none;
+    }
+    
+    .time_start {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .list_screen_note {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 0px;
+    }
