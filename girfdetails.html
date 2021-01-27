@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/girfdetails.css">
+</head>
+
+<body>
+    <section class="girfdetails">
+        <div class="container pt-5 pb-5">
+            <div class="row bg_girfdetail">
+                <!--left_detail-->
+                <div class="col-xl-7 col-md-12 col-sm-12 col-12 border_right">
+                    <div class="left_detail">
+                        <img class="p-5" width="100%" src="img/combo1.jpg" alt="">
+                        <table class="table tbl_infor mb-5">
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <p>Nội dung sản phẩm</p>
+                                    </th>
+                                    <td>Chứng nhận quà tặng cửa hàng trực tuyến 1EA</td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <p>Số lượng mua tối thiếu</p>
+                                    </th>
+                                    <td>Không giới hạn</td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <p>Hạn sử dụng sản phẩm</p>
+                                    </th>
+                                    <td>Chứng nhận quà tặng cửa hàng trực tuyến 3 tháng</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h6 class="mb-3 title_tbl_detail">Bảng hướng dẫn sử dụng</h6>
+                        <table class="tbl_detail">
+                            <tbody id="useInfo">
+                                <tr>
+                                    <th scope="row">Use Method</th>
+                                    <td>
+                                        <ul class="trafficMemo">
+                                            <p>eVoucher có giá trị quy đổi thành 1 Combo Bắp Nước, bao gồm 1 Nước Ngọt Lớn và 1 Bắp Lớn.</p>
+                                            <p><em>* Quý khách vui lòng bỏ thêm&nbsp;12.000VNĐ để nâng cấp thêm vị: Phô mai hoặc&nbsp;Caramel.</em></p>
+                                            <p><em>** Quý khách vui lòng đổi eVoucher tại quầy Bắp Nước.</em>
+
+                                            </p>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Cancel/Refund</th>
+                                    <td>
+                                        <ul class="trafficMemo">
+                                            <p><span style="mso-bidi-font-size: 11.0pt; mso-fareast-font-family: Calibri">Không hỗ trợ đổi trả và hoàn tiền.</span>
+
+                                            </p>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">ETC</th>
+                                    <td>
+                                        <ul class="trafficMemo">
+                                            <p>Sản phẩm&nbsp;hiện đang&nbsp;bán trên toàn hệ thống Lotte Cinema.</p>
+                                            <p><em>* Mọi thông tin chi tiết vui lòng liên hệ&nbsp;trung tâm chăm sóc khách hàng: </em><a><em><span style="TEXT-DECORATION: none; COLOR: blue; text-underline: none">cs@lotte.vn</span></em></a><em> hoặc&nbsp;Fanpage&nbsp;Lotte Cinema:&nbsp;</em>
+                                                <a href="https://www.facebook.com/lottecinema/"><em><span style="TEXT-DECORATION: none; COLOR: blue; text-underline: none">https://www.facebook.com/lottecinema/</span></em></a>
+                                            </p>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--right_detail-->
+                <div class="col-xl-5 col-md-12 col-sm-12 col-12">
+                    <div class="right_detail p-5">
+                        <h4 class="girf_title mb-5">SOLO COMBO</h4>
+                        <table class="table tbl_right" style="font-size: 14px;">
+                            <tbody>
+                                <tr>
+                                    <td>Giá bán online</td>
+                                    <td>105.000<span>₫</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Số lượng</td>
+                                    <td>
+                                        <div class="wrapper_quantity">
+                                            <input type="text" title="Nhập số lượng đại lượng" class="inline_div" value="0" id="txtItemCnt" readonly="" />
+                                            <a href="javascript:void(0)" class=" btn_girf inline_div" id="minus"><img width="30px" height="30px" src="img/btn_s_minus02.gif" /></a>
+                                            <a href="javascript:void(0)" class=" btn_girf inline_div" id="plus"><img width="30px" height="30px" src="img/btn_s_plus02.gif" /></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tổng số</strong></td>
+                                    <td>
+                                        <em><span id="totalSellPrice">525.000</span><span>₫</span></em>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="wbtn_righttbl"><a href="javascript:void(0)" class="btn_righttbl" id="btnPresent">Món quà</a></td>
+                                    <td class="wbtn_righttbl"><a href="javascript:void(0)" class="btn_righttbl" id="btnBuy">Mua ngay</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="btn_box">
+                            <a href="javascript:void(0)" class="btnc_list">Danh sách sản phẩm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="jquery-3.5.1.min.js "></script>
+<script src="bootstrap/js/bootstrap.min.js "></script>
+<script src="temple.js "></script>
+
+
+</html>

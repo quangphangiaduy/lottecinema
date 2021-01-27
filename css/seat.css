@@ -1,0 +1,394 @@
+  /* class background của các loại ghế ngồi*/
+  /*ghế đã mua*/
+  
+  .special_fee {
+      background: url(../img/bg_seat03.gif) no-repeat 50% 50%;
+      border: none;
+  }
+  /*ghế vip*/
+  
+  .seat_vip {
+      background: url(../img/bg_special_fee.gif) no-repeat 50% 50%;
+      border: none;
+  }
+  /*ghế có thể chọn*/
+  
+  .seat_canchoose {
+      background: #848484;
+      border: none;
+  }
+  /*ghế đôi*/
+  
+  .seat_couple {
+      background: url(../img/bg_cine_couple.gif) no-repeat 50% 50%;
+      border: none;
+  }
+  /*ghế không thể chọn*/
+  
+  .seat_cannotchoose {
+      background: url(../img/bg_cannotchoose.gif) no-repeat 50% 50%;
+      border: none;
+  }
+  /*ghế đã chọn*/
+  
+  .seat_selected {
+      background: url(../img/bg_selected.gif) no-repeat 50% 50%;
+      border: none;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: Arial, Helvetica, sans-serif
+  }
+  
+  .bg_main {
+      background-color: #f9f6ec;
+  }
+  
+  .bg_white {
+      background-color: white;
+  }
+  
+  .border_bottom {
+      border-bottom: 1px solid #dedede;
+  }
+  
+  .p-0 {
+      padding: 0
+  }
+  
+  a:hover {
+      text-decoration: none;
+  }
+  
+  .seatheader_title {
+      font-weight: bolder;
+  }
+  
+  .seatheader_right li {
+      display: inline-block;
+      list-style: none;
+      border: 1px solid #d1d1d1;
+      font-size: 13px;
+      padding: 5px;
+      color: #231f20;
+      background-color: white;
+  }
+  
+  .seatheader_right a {
+      color: #231f20;
+  }
+  
+  .seat_seting {
+      margin-bottom: 0px;
+  }
+  
+  .seat_seting li {
+      display: inline-block;
+      list-style: none;
+  }
+  
+  label {
+      margin-bottom: 0px;
+      font-weight: bold;
+  }
+  
+  .screen_title {
+      background-image: url(../img/bg_screen.gif);
+      text-align: center;
+      margin: 0px;
+  }
+  
+  .screen_tbl {
+      margin: 0 auto;
+  }
+  
+  .screen_tbl th {
+      text-align: left;
+  }
+  
+  .seat_tit {
+      text-transform: uppercase;
+      font-weight: normal;
+  }
+  
+  .seat_number_links {
+      padding: 1px 6px;
+      color: white;
+  }
+  
+  .seat_number_links:hover {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .seat_infor,
+  .infor_list,
+  .seat_txt {
+      margin: 0px;
+      overflow: auto;
+      white-space: nowrap;
+      width: 100%;
+  }
+  
+  .seat_infor li,
+  .infor_list li,
+  .seat_txt li {
+      display: inline-block;
+      list-style: none;
+      margin: 0px 10px;
+      color: #555;
+      font-size: 12px;
+  }
+  
+  .info_wrap {
+      width: 100%;
+      border-top: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 10px 0px;
+  }
+  
+  .product_list_tit {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  
+  .card {
+      border-radius: 0px !important;
+      font-size: 14px !important;
+  }
+  
+  .card .card-body {
+      padding: 0.5rem 0px 0px 0px;
+  }
+  
+  .card .card-body a.gift-title {
+      color: #231f20;
+      font-weight: bold;
+      padding: 0.5rem;
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  
+  .card .card-body a.gift-title:hover {
+      text-decoration: none;
+  }
+  
+  .card .card-body .gift_date {
+      font-size: 13px;
+      padding: 0.5rem;
+      margin-bottom: 0px;
+  }
+  
+  .card .card-body .gift_price {
+      margin-bottom: 0px;
+      border-top: 1px solid #dedede;
+      font-size: 14px;
+      font-weight: bold;
+      color: black;
+      width: 100%;
+  }
+  
+  .card .card-body .gift_price .cost {
+      padding: 0.4rem;
+      font-size: 12px;
+      float: left;
+      color: #848484;
+  }
+  
+  .card .card-body .gift_price .discount {
+      padding: 0.4rem;
+      float: right;
+  }
+  
+  .product_infor {
+      border-top: 2px solid #231f20 !important;
+      border: 1px solid #848484;
+  }
+  
+  .tbl_product_infor {
+      width: 70%;
+      color: #666666;
+      font-size: 14px;
+  }
+  
+  .product_tit {
+      width: 100%;
+      padding: 15px;
+      border-bottom: 1px solid #848484;
+      margin-bottom: 0px;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  
+  #deleteSelectProduct {
+      outline: none;
+      border: none;
+      float: right;
+      background-color: #ffffff;
+      padding: 0px 5px;
+  }
+  
+  .ft_product_infor_list {
+      margin-bottom: 0px;
+  }
+  
+  .ft_product_infor_list li {
+      list-style: none;
+      font-size: 12px;
+  }
+  
+  .tit_txt {
+      margin-bottom: 12px;
+      font-size: 16px;
+      color: #231f20;
+      font-weight: bold;
+      padding-top: 15px;
+  }
+  
+  .price_txt {
+      margin-bottom: 0px;
+      font-weight: bold;
+  }
+  
+  .price_infor {
+      float: right;
+  }
+  
+  .add_cart_btn {
+      padding: 3px 8px;
+      background-color: #231f20;
+      border: none;
+  }
+  
+  .title_txt {
+      color: #A7A9AC;
+  }
+  
+  .title_txt:hover {
+      color: #A7A9AC;
+  }
+  
+  .ct_txt {
+      color: white;
+      font-size: 14px;
+  }
+  
+  .add_cart_btn a {
+      color: #d9e1b0;
+  }
+  
+  .border_left {
+      border-left: 1px solid #848484;
+  }
+  
+  .border_top {
+      border-top: 1px solid #848484;
+      padding: 15px;
+  }
+  
+  .total_wrap_btn {
+      background: #cdc197;
+  }
+  
+  .total_wrap_btn_left {
+      float: left;
+  }
+  
+  .total_wrap_btn_right {
+      float: right;
+  }
+  
+  .total_wrap_btn_left a,
+  .total_wrap_btn_right a {
+      color: #231f20;
+      font-size: 14px;
+      font-weight: bold;
+  }
+  
+  .total_wrap_btn_icon {
+      font-size: 16px;
+      color: #6f6247;
+  }
+  
+  .border_total_wrap {
+      border: 1px solid #a7a9ac;
+  }
+  
+  .box_content {
+      padding: 10px;
+      height: 180px;
+  }
+  
+  .total_wrap_tit {
+      color: #cdc197;
+      font-size: 14px;
+      font-weight: normal;
+  }
+  
+  .bg_total_wrap {
+      background-color: #33373a;
+  }
+  
+  .total_wrap_tbl {
+      width: 100%;
+      font-size: 14px;
+  }
+  
+  .pd_name {
+      overflow: hidden;
+      text-align: left;
+      text-transform: capitalize;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      float: left;
+      color: white;
+      font-size: 14px;
+  }
+  
+  .pd_price {
+      float: right;
+      color: white;
+      font-size: 14px;
+  }
+  
+  .detlete_btn {
+      background-color: #626060;
+      border: 1px solid #7f8182;
+      color: #7f8182;
+      padding: 0px 5px;
+  }
+  
+  .total_price {
+      float: right;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      font-size: 24px;
+      color: white;
+  }
+  
+  .total_price:hover,
+  .pd_price:hover,
+  .pd_name:hover {
+      color: white;
+  }
+  
+  @media (max-width: 575.98px) {
+      .border_left {
+          border: none;
+      }
+  }
+  /*Small devices (landscape phones, 576px and up) */
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+      .border_left {
+          border: none;
+      }
+  }
