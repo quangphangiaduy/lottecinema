@@ -374,6 +374,11 @@
       color: white;
   }
   
+  .price_icon {
+      vertical-align: bottom;
+      font-size: 12px;
+  }
+  
   .total_price:hover,
   .pd_price:hover,
   .pd_name:hover {
